@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Sketch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="title">Drawing Board</div>
+    <div class="container">
+        <div class="menu-container">
+            <div class="color-container">
+                <input type="color" id="color-picker" value="#000000">
+                <div class="color">COLOR</div>
+            </div>
+            <button id="eraser-btn" value="OFF">ERASER</button>
+            <div class="size-container">
+                <p>GRID SIZE</p>
+                <div class="size-box">
+                    <button id="small">SMALL</button>
+                    <button id="medium">MEDIUM</button>
+                    <button id="large">LARGE</button>
+                </div>
+            </div>
+            <button id="clear-btn">CLEAR</button>
+        </div>
+        <div class="board-container">
+            <div id="grid" class=""></div>
+            <div class="rion">BY RION KUDO</div>
+        </div>
+
+
+    </div>
+    <script src="js.js"></script>
+</body>
+</html>
